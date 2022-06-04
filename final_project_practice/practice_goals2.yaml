@@ -1,0 +1,52 @@
+topic_name: "/goals"
+goals:
+  0:
+    x: 0.96
+    y: 1.35
+    z: 0
+    reward: 10
+  1:
+    x: -0.88
+    y: 0.5
+    z: 0
+    reward: 15
+  2:
+    x: -1.72
+    y: -1.12
+    z: 0
+    reward: 100
+  3:
+    x: 2.11
+    y: -0.9
+    z: 0
+    reward: 50
+  4:
+    x: -0.7755
+    y: 2.479
+    z: 0
+    reward: 75
+  5:
+    x: -0.50
+    y: 3.13
+    z: 0
+    reward: 100
+  6:
+    x: 1.52
+    y: 0.28
+    z: 0
+    reward: 150
+  7:
+    x: 0.88
+    y: 2.49
+    z: 0
+    reward: 20
+  8:
+    x: 0.14
+    y: 1.6
+    z: 0
+    reward: 75
+  9:
+    x: 2.08
+    y: 3.2
+    z: 0
+    reward: 250

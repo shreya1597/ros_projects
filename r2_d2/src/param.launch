@@ -1,0 +1,11 @@
+<!--rosparam command="load" file="$(find r2_d2)/config/common_params.yaml" ns="$(arg robot_id)"-- />
+
+    <!---Parameters-->
+
+    <!--arg name="robot_id" default="1"/>
+
+    <node name="dynamic_reconfigure_local_costmap" pkg="dynamic_reconfigure" type="dynparam" args="load /robot$(arg robot_id)/move_base/local_costmap $(find r2_d2)/config/local_costmap_params.yaml"/>
+
+    <node name="dynamic_reconfigure_global_costmap" pkg="dynamic_reconfigure" type="dynparam" args="load /robot$(arg robot_id)/move_base/global_costmap $(find r2_d2)/config/global_costmap_params.yaml"/>
+
+    <!--node name="dynamic_reconfigure_local_costmap" pkg="dynamic_reconfigure" type="dynparam" args="load /robot$(arg robot_id)/move_base/DWAPLANNERROS $(find r2_d2)/config/dwa_local_planner_params.yaml"/--->

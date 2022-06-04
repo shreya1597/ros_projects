@@ -1,0 +1,8 @@
+<launch>
+
+    <!--Arguments-->
+    <arg name="robot_id" default="robot1"/>
+
+    <!--Node-->
+    <node pkg = "r2_d2" type = "navigate.py" name = "nav_r2_d2" output = "screen" ns= "$(arg robot_id)" />
+</launch>

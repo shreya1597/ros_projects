@@ -1,0 +1,16 @@
+<launch>
+
+    <!--Arguments-->
+    <arg name="robot_id" default="robot1"/>
+
+    <!--Node-->
+    <node pkg = "r2_d2demo" type = "navigation_4.py" name = "nav_demo" output = "screen" ns= "$(arg robot_id)" />
+
+    <!--goal publisher-->
+    <include file="$(find goal_publisher)/launch/goal_publisher.launch"/> 
+
+</launch>
+
+
+
+

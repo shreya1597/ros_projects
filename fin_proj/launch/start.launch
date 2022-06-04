@@ -1,0 +1,5 @@
+<launch>
+  <node pkg="fin_proj" type="main.py" name="robot_navigation" output="screen">
+  </node>
+  <include file="$(find goal_publisher)/launch/goal_publisher.launch"/>
+</launch>

@@ -1,0 +1,8 @@
+<launch>
+    <!--goal publisher-->
+    <include file="$(find goal_publisher)/launch/goal_publisher.launch"/>
+
+    <!--node-->
+    <node pkg = "r2_d2demo" type = "goal_demo.py" name = "goal_demo" output = "screen" />
+  
+</launch>

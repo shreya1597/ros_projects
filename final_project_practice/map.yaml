@@ -1,0 +1,7 @@
+image: /home/shreya/Sem2/AAMR/git_repos/catkin_ws/src/FinalProj/nn-192146_tier4/final_project_practice/map.pgm
+resolution: 0.050000
+origin: [-21.200000, -21.200000, 0.000000]
+negate: 0
+occupied_thresh: 0.65
+free_thresh: 0.196
+
